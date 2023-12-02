@@ -1,13 +1,13 @@
 /* Run this file with: */
 // deno run - A--unstable server.ts
 
-/* Test it with curl: */
+/** Test it with curl: */
 // curl--header "Content-Type: application/json" \
 // --request POST \
 // --data '{"url":"https://docs.deno.com/runtime/manual","slug":"denodocs"}' \
 // http://localhost:8000/
 
-/* IMPORTANT: */
+/** IMPORTANT: */
 // Remember to have fun! :)
 
 const kv = await Deno.openKv()

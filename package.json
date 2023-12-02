@@ -1,21 +1,21 @@
 {
-  "name": "tiny-snippet-server",
+  "name": "snippet-server-deno-deploy",
   "version": "1.0.0",
-  "description": "A tiny sample implementation of Babylon.js snippet server",
+  "description": "A snippet server in the public domain.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BabylonJS/SnippetServerReference"
+    "url": "git+https://github.com/modster/SnippetServerReference"
   },
   "author": "Carolina Mesquita",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/BabylonJS/SnippetServerReference/issues"
+    "url": "https://github.com/modster/SnippetServerReference/issues"
   },
-  "homepage": "https://github.com/BabylonJS/SnippetServerReference#readme",
+  "homepage": "https://github.com/modster/SnippetServerReference#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1"
